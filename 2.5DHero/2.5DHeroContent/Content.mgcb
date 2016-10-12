@@ -72,7 +72,7 @@
 /processor:FontTextureProcessor
 /processorParam:FirstCharacter= 
 /processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
+/processorParam:TextureFormat=Color
 /build:Content/Fonts/BMP/Braille.png
 
 #begin Content/Fonts/BMP/chatFont.png
@@ -80,7 +80,7 @@
 /processor:FontTextureProcessor
 /processorParam:FirstCharacter= 
 /processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
+/processorParam:TextureFormat=Color
 /build:Content/Fonts/BMP/chatFont.png
 
 #begin Content/Fonts/BMP/InGame.png
@@ -88,7 +88,7 @@
 /processor:FontTextureProcessor
 /processorParam:FirstCharacter= 
 /processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
+/processorParam:TextureFormat=Color
 /build:Content/Fonts/BMP/InGame.png
 
 #begin Content/Fonts/BMP/mainFont.png
@@ -96,7 +96,7 @@
 /processor:FontTextureProcessor
 /processorParam:FirstCharacter= 
 /processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
+/processorParam:TextureFormat=Color
 /build:Content/Fonts/BMP/mainFont.png
 
 #begin Content/Fonts/BMP/miniFont.spritefont
@@ -110,7 +110,7 @@
 /processor:FontTextureProcessor
 /processorParam:FirstCharacter= 
 /processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
+/processorParam:TextureFormat=Color
 /build:Content/Fonts/BMP/TextFont.png
 
 #begin Content/Fonts/BMP/Unown.png
@@ -118,7 +118,7 @@
 /processor:FontTextureProcessor
 /processorParam:FirstCharacter= 
 /processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
+/processorParam:TextureFormat=Color
 /build:Content/Fonts/BMP/Unown.png
 
 #begin Content/GUI/Badges.png
@@ -950,7 +950,7 @@
 /processorParam:RotationZ=0
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
-/processorParam:TextureFormat=DxtCompressed
+/processorParam:TextureFormat=Color
 /build:Content/Models/boat/ferry.X
 
 #begin Content/Models/boat/Ship.X
@@ -969,7 +969,7 @@
 /processorParam:RotationZ=0
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
-/processorParam:TextureFormat=DxtCompressed
+/processorParam:TextureFormat=Color
 /build:Content/Models/boat/Ship.X
 
 #begin Content/Models/boat2/Boat.fbx
@@ -988,7 +988,7 @@
 /processorParam:RotationZ=0
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
-/processorParam:TextureFormat=DxtCompressed
+/processorParam:TextureFormat=Color
 /build:Content/Models/boat2/Boat.fbx
 
 #begin Content/Models/building/P3DBuilding.x
@@ -1007,7 +1007,7 @@
 /processorParam:RotationZ=0
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
-/processorParam:TextureFormat=DxtCompressed
+/processorParam:TextureFormat=Color
 /build:Content/Models/building/P3DBuilding.x
 
 #begin Content/Models/Environment/arena_colleseum.X
@@ -1026,7 +1026,7 @@
 /processorParam:RotationZ=0
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
-/processorParam:TextureFormat=DxtCompressed
+/processorParam:TextureFormat=Color
 /build:Content/Models/Environment/arena_colleseum.X
 
 #begin Content/Models/Environment/MtSilver/Mountain.x
@@ -1045,7 +1045,7 @@
 /processorParam:RotationZ=0
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
-/processorParam:TextureFormat=DxtCompressed
+/processorParam:TextureFormat=Color
 /build:Content/Models/Environment/MtSilver/Mountain.x
 
 #begin Content/Models/Environment/Test_floor/Test_floor.X
@@ -1064,7 +1064,7 @@
 /processorParam:RotationZ=0
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
-/processorParam:TextureFormat=DxtCompressed
+/processorParam:TextureFormat=Color
 /build:Content/Models/Environment/Test_floor/Test_floor.X
 
 #begin Content/Models/Snorlax/Normal.x
@@ -1083,7 +1083,7 @@
 /processorParam:RotationZ=0
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
-/processorParam:TextureFormat=DxtCompressed
+/processorParam:TextureFormat=Color
 /build:Content/Models/Snorlax/Normal.x
 
 #begin Content/Models/Snorlax/Shiny.x
@@ -1102,7 +1102,7 @@
 /processorParam:RotationZ=0
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
-/processorParam:TextureFormat=DxtCompressed
+/processorParam:TextureFormat=Color
 /build:Content/Models/Snorlax/Shiny.x
 
 #begin Content/Models/truck2/Truck.fbx
@@ -1121,7 +1121,7 @@
 /processorParam:RotationZ=0
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
-/processorParam:TextureFormat=DxtCompressed
+/processorParam:TextureFormat=Color
 /build:Content/Models/truck2/Truck.fbx
 
 #begin Content/Pokemon/Data/1.dat
@@ -31407,7 +31407,7 @@
 /processorParam:RotationZ=0
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
-/processorParam:TextureFormat=DxtCompressed
+/processorParam:TextureFormat=Color
 /build:Content/SkyDomeResource/SkyDome.x
 
 #begin Content/SkyDomeResource/Stars.png
