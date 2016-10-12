@@ -2,6 +2,10 @@ This repository holds the source code for Pokémon 3D Patch version.
 
 The game is not in active development by nilllzz anymore, but you are free to fork and redistribute the code under the [GNU GPLv3 license](http://choosealicense.com/licenses/gpl-3.0/).
 
+**MonoGame Master Branch:** | **MonoGame Lastest:**
+---------------- | ---------------------
+[![Build status](https://ci.appveyor.com/api/projects/status/9n45e9xups8vt2ic/branch/master?svg=true)](https://ci.appveyor.com/project/jianmingyong/pokemon-3d-patch-monogame/branch/master) | [![Build status](https://ci.appveyor.com/api/projects/status/9n45e9xups8vt2ic?svg=true)](https://ci.appveyor.com/project/jianmingyong/pokemon-3d-patch-monogame)
+
 Build instructions (game)
 =========================
 
