@@ -1,26 +1,29 @@
-This repository holds the source code for Pokémon3D, its client and server as of the update 0.53.3.
+This repository holds the source code for Pokémon 3D Patch version.
 
-The game is not in active development by me anymore, but you are free to fork and redistribute the code under the [GNU GPLv3 license](http://choosealicense.com/licenses/gpl-3.0/).
+The game is not in active development by nilllzz anymore, but you are free to fork and redistribute the code under the [GNU GPLv3 license](http://choosealicense.com/licenses/gpl-3.0/).
 
 Build instructions (game)
 =========================
 
-The game is written in Visual Basic and was compiled targeting the .Net Framework 4.0 for my public builds.
+The game is written in Visual Basic and was compiled targeting the .Net Framework 4.0 for public builds.
 
-It is built using the Microsoft XNA framework as graphics middleware.
+It is built using the Monogame as graphics middleware.
 
 In order to build the game's solution, you need the following:
-* Microsoft Windows operating system (XP and up)
+* Microsoft Windows operating system (XP and up) or Mac osx.
 * [Microsoft Visual Studio](https://www.visualstudio.com/) (2010 and up)
-* Microsoft XNA framework 4.0 (runtime dlls, included in the XNA Game Studio)
-* [Microsoft XNA Game Studio 4.0](https://www.microsoft.com/en-us/download/details.aspx?id=23714) ([install instructions](http://stackoverflow.com/questions/12849107/how-to-install-the-xna-game-studio-4-0-in-windows-8))
+* [Monogame 3.5](http://www.monogame.net/downloads/)
 
 To run the game after a successful build, you also need an applicable graphics card that supports DirectX (version 9 minimum).
 
-The first build of the game will take a little longer due to the XNA ContentPipeline building all assets for the first time.
+The first build of the game will take a little longer due to the XNA Content Pipeline building all assets for the first time.
 
 Running the game
 ================
+
+In order to run the game, you will need the following:
+* [Monogame 3.5](http://www.monogame.net/downloads/)
+* OpenAL - You have to install that manually from the Monogame folder. The installer doesn't install for you.
 
 Classified information
 ----------------------

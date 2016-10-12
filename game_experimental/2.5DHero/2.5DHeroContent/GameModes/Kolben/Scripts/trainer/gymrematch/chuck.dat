@@ -1,2 +1,0 @@
-version=2
-@script.start(trainer\gymrematch\main,chuck<register.exists(earthbadge_obtain)>)

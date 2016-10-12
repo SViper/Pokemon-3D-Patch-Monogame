@@ -1,6 +1,0 @@
-version=2
-:if:<register.exists(rocket_invasion_radio)>=True
-    @music.play(encounter\rocket)
-    @music.setmusicloop(encounter\rocket)
-:endif
-:end

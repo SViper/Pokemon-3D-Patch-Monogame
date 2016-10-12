@@ -1,2 +1,0 @@
-version=2
-@script.start(trainer\gymrematch\main,falkner<register.exists(earthbadge_obtain)>)

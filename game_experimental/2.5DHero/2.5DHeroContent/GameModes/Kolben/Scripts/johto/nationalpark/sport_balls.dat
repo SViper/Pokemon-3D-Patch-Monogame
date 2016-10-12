@@ -1,3 +1,0 @@
-version=2
-@text.show(You have <item.count(177)>~Sport Balls left.)
-:end
