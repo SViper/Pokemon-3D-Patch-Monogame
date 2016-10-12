@@ -13,6 +13,9 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin meta
+/copy:meta
+
 #begin Content/Data/badges.dat
 /copy:Content/Data/badges.dat
 
@@ -1325,6 +1328,9 @@
 #begin Content/Pokemon/Data/159.dat
 /copy:Content/Pokemon/Data/159.dat
 
+#begin Content/Pokemon/Data/15_mega.dat
+/copy:Content/Pokemon/Data/15_mega.dat
+
 #begin Content/Pokemon/Data/16.dat
 /copy:Content/Pokemon/Data/16.dat
 
@@ -1400,6 +1406,9 @@
 #begin Content/Pokemon/Data/181.dat
 /copy:Content/Pokemon/Data/181.dat
 
+#begin Content/Pokemon/Data/181_mega.dat
+/copy:Content/Pokemon/Data/181_mega.dat
+
 #begin Content/Pokemon/Data/182.dat
 /copy:Content/Pokemon/Data/182.dat
 
@@ -1423,6 +1432,9 @@
 
 #begin Content/Pokemon/Data/189.dat
 /copy:Content/Pokemon/Data/189.dat
+
+#begin Content/Pokemon/Data/18_mega.dat
+/copy:Content/Pokemon/Data/18_mega.dat
 
 #begin Content/Pokemon/Data/19.dat
 /copy:Content/Pokemon/Data/19.dat
@@ -1505,11 +1517,17 @@
 #begin Content/Pokemon/Data/212.dat
 /copy:Content/Pokemon/Data/212.dat
 
+#begin Content/Pokemon/Data/212_mega.dat
+/copy:Content/Pokemon/Data/212_mega.dat
+
 #begin Content/Pokemon/Data/213.dat
 /copy:Content/Pokemon/Data/213.dat
 
 #begin Content/Pokemon/Data/214.dat
 /copy:Content/Pokemon/Data/214.dat
+
+#begin Content/Pokemon/Data/214_mega.dat
+/copy:Content/Pokemon/Data/214_mega.dat
 
 #begin Content/Pokemon/Data/215.dat
 /copy:Content/Pokemon/Data/215.dat
@@ -1622,6 +1640,9 @@
 #begin Content/Pokemon/Data/248.dat
 /copy:Content/Pokemon/Data/248.dat
 
+#begin Content/Pokemon/Data/248_mega.dat
+/copy:Content/Pokemon/Data/248_mega.dat
+
 #begin Content/Pokemon/Data/249.dat
 /copy:Content/Pokemon/Data/249.dat
 
@@ -1643,6 +1664,9 @@
 #begin Content/Pokemon/Data/254.dat
 /copy:Content/Pokemon/Data/254.dat
 
+#begin Content/Pokemon/Data/254_mega.dat
+/copy:Content/Pokemon/Data/254_mega.dat
+
 #begin Content/Pokemon/Data/255.dat
 /copy:Content/Pokemon/Data/255.dat
 
@@ -1651,6 +1675,9 @@
 
 #begin Content/Pokemon/Data/257.dat
 /copy:Content/Pokemon/Data/257.dat
+
+#begin Content/Pokemon/Data/257_mega.dat
+/copy:Content/Pokemon/Data/257_mega.dat
 
 #begin Content/Pokemon/Data/258.dat
 /copy:Content/Pokemon/Data/258.dat
@@ -1663,6 +1690,9 @@
 
 #begin Content/Pokemon/Data/260.dat
 /copy:Content/Pokemon/Data/260.dat
+
+#begin Content/Pokemon/Data/260_mega.dat
+/copy:Content/Pokemon/Data/260_mega.dat
 
 #begin Content/Pokemon/Data/261.dat
 /copy:Content/Pokemon/Data/261.dat
@@ -1735,6 +1765,9 @@
 
 #begin Content/Pokemon/Data/282.dat
 /copy:Content/Pokemon/Data/282.dat
+
+#begin Content/Pokemon/Data/282_mega.dat
+/copy:Content/Pokemon/Data/282_mega.dat
 
 #begin Content/Pokemon/Data/283.dat
 /copy:Content/Pokemon/Data/283.dat
@@ -1817,11 +1850,17 @@
 #begin Content/Pokemon/Data/306.dat
 /copy:Content/Pokemon/Data/306.dat
 
+#begin Content/Pokemon/Data/306_mega.dat
+/copy:Content/Pokemon/Data/306_mega.dat
+
 #begin Content/Pokemon/Data/307.dat
 /copy:Content/Pokemon/Data/307.dat
 
 #begin Content/Pokemon/Data/308.dat
 /copy:Content/Pokemon/Data/308.dat
+
+#begin Content/Pokemon/Data/308_mega.dat
+/copy:Content/Pokemon/Data/308_mega.dat
 
 #begin Content/Pokemon/Data/309.dat
 /copy:Content/Pokemon/Data/309.dat
@@ -1874,6 +1913,9 @@
 #begin Content/Pokemon/Data/323.dat
 /copy:Content/Pokemon/Data/323.dat
 
+#begin Content/Pokemon/Data/323_mega.dat
+/copy:Content/Pokemon/Data/323_mega.dat
+
 #begin Content/Pokemon/Data/324.dat
 /copy:Content/Pokemon/Data/324.dat
 
@@ -1909,6 +1951,9 @@
 
 #begin Content/Pokemon/Data/334.dat
 /copy:Content/Pokemon/Data/334.dat
+
+#begin Content/Pokemon/Data/334_mega.dat
+/copy:Content/Pokemon/Data/334_mega.dat
 
 #begin Content/Pokemon/Data/335.dat
 /copy:Content/Pokemon/Data/335.dat
@@ -1976,6 +2021,9 @@
 #begin Content/Pokemon/Data/354.dat
 /copy:Content/Pokemon/Data/354.dat
 
+#begin Content/Pokemon/Data/354_mega.dat
+/copy:Content/Pokemon/Data/354_mega.dat
+
 #begin Content/Pokemon/Data/355.dat
 /copy:Content/Pokemon/Data/355.dat
 
@@ -1990,6 +2038,9 @@
 
 #begin Content/Pokemon/Data/359.dat
 /copy:Content/Pokemon/Data/359.dat
+
+#begin Content/Pokemon/Data/359_mega.dat
+/copy:Content/Pokemon/Data/359_mega.dat
 
 #begin Content/Pokemon/Data/36.dat
 /copy:Content/Pokemon/Data/36.dat
@@ -2048,6 +2099,9 @@
 #begin Content/Pokemon/Data/376.dat
 /copy:Content/Pokemon/Data/376.dat
 
+#begin Content/Pokemon/Data/376_mega.dat
+/copy:Content/Pokemon/Data/376_mega.dat
+
 #begin Content/Pokemon/Data/377.dat
 /copy:Content/Pokemon/Data/377.dat
 
@@ -2069,8 +2123,14 @@
 #begin Content/Pokemon/Data/382.dat
 /copy:Content/Pokemon/Data/382.dat
 
+#begin Content/Pokemon/Data/382_primal.dat
+/copy:Content/Pokemon/Data/382_primal.dat
+
 #begin Content/Pokemon/Data/383.dat
 /copy:Content/Pokemon/Data/383.dat
+
+#begin Content/Pokemon/Data/383_primal.dat
+/copy:Content/Pokemon/Data/383_primal.dat
 
 #begin Content/Pokemon/Data/384.dat
 /copy:Content/Pokemon/Data/384.dat
@@ -2237,6 +2297,9 @@
 #begin Content/Pokemon/Data/428.dat
 /copy:Content/Pokemon/Data/428.dat
 
+#begin Content/Pokemon/Data/428_mega.dat
+/copy:Content/Pokemon/Data/428_mega.dat
+
 #begin Content/Pokemon/Data/429.dat
 /copy:Content/Pokemon/Data/429.dat
 
@@ -2294,6 +2357,9 @@
 #begin Content/Pokemon/Data/445.dat
 /copy:Content/Pokemon/Data/445.dat
 
+#begin Content/Pokemon/Data/445_mega.dat
+/copy:Content/Pokemon/Data/445_mega.dat
+
 #begin Content/Pokemon/Data/446.dat
 /copy:Content/Pokemon/Data/446.dat
 
@@ -2302,6 +2368,9 @@
 
 #begin Content/Pokemon/Data/448.dat
 /copy:Content/Pokemon/Data/448.dat
+
+#begin Content/Pokemon/Data/448_mega.dat
+/copy:Content/Pokemon/Data/448_mega.dat
 
 #begin Content/Pokemon/Data/449.dat
 /copy:Content/Pokemon/Data/449.dat
@@ -2344,6 +2413,9 @@
 
 #begin Content/Pokemon/Data/460.dat
 /copy:Content/Pokemon/Data/460.dat
+
+#begin Content/Pokemon/Data/460_mega.dat
+/copy:Content/Pokemon/Data/460_mega.dat
 
 #begin Content/Pokemon/Data/461.dat
 /copy:Content/Pokemon/Data/461.dat
@@ -2392,6 +2464,9 @@
 
 #begin Content/Pokemon/Data/475.dat
 /copy:Content/Pokemon/Data/475.dat
+
+#begin Content/Pokemon/Data/475_mega.dat
+/copy:Content/Pokemon/Data/475_mega.dat
 
 #begin Content/Pokemon/Data/476.dat
 /copy:Content/Pokemon/Data/476.dat
@@ -2602,6 +2677,9 @@
 
 #begin Content/Pokemon/Data/531.dat
 /copy:Content/Pokemon/Data/531.dat
+
+#begin Content/Pokemon/Data/531_mega.dat
+/copy:Content/Pokemon/Data/531_mega.dat
 
 #begin Content/Pokemon/Data/532.dat
 /copy:Content/Pokemon/Data/532.dat
@@ -3020,6 +3098,9 @@
 #begin Content/Pokemon/Data/65.dat
 /copy:Content/Pokemon/Data/65.dat
 
+#begin Content/Pokemon/Data/65_mega.dat
+/copy:Content/Pokemon/Data/65_mega.dat
+
 #begin Content/Pokemon/Data/66.dat
 /copy:Content/Pokemon/Data/66.dat
 
@@ -3071,6 +3152,12 @@
 #begin Content/Pokemon/Data/699.dat
 /copy:Content/Pokemon/Data/699.dat
 
+#begin Content/Pokemon/Data/6_mega_x.dat
+/copy:Content/Pokemon/Data/6_mega_x.dat
+
+#begin Content/Pokemon/Data/6_mega_y.dat
+/copy:Content/Pokemon/Data/6_mega_y.dat
+
 #begin Content/Pokemon/Data/7.dat
 /copy:Content/Pokemon/Data/7.dat
 
@@ -3100,6 +3187,12 @@
 
 #begin Content/Pokemon/Data/715.dat
 /copy:Content/Pokemon/Data/715.dat
+
+#begin Content/Pokemon/Data/719.dat
+/copy:Content/Pokemon/Data/719.dat
+
+#begin Content/Pokemon/Data/719_mega.dat
+/copy:Content/Pokemon/Data/719_mega.dat
 
 #begin Content/Pokemon/Data/72.dat
 /copy:Content/Pokemon/Data/72.dat
@@ -3133,6 +3226,9 @@
 
 #begin Content/Pokemon/Data/80.dat
 /copy:Content/Pokemon/Data/80.dat
+
+#begin Content/Pokemon/Data/80_mega.dat
+/copy:Content/Pokemon/Data/80_mega.dat
 
 #begin Content/Pokemon/Data/81.dat
 /copy:Content/Pokemon/Data/81.dat
@@ -3178,6 +3274,9 @@
 
 #begin Content/Pokemon/Data/94.dat
 /copy:Content/Pokemon/Data/94.dat
+
+#begin Content/Pokemon/Data/94_mega.dat
+/copy:Content/Pokemon/Data/94_mega.dat
 
 #begin Content/Pokemon/Data/95.dat
 /copy:Content/Pokemon/Data/95.dat
@@ -31331,6 +31430,30 @@
 /processorParam:TextureFormat=Color
 /build:Content/SkyDomeResource/AuroraBoralis.png
 
+#begin Content/SkyDomeResource/Cave.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/SkyDomeResource/Cave.jpg
+
+#begin Content/SkyDomeResource/Clouds.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/SkyDomeResource/Clouds.jpg
+
 #begin Content/SkyDomeResource/Clouds1.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -31354,6 +31477,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Content/SkyDomeResource/CloudsWeather.png
+
+#begin Content/SkyDomeResource/Dark.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/SkyDomeResource/Dark.jpg
 
 #begin Content/SkyDomeResource/daycycle.png
 /importer:TextureImporter

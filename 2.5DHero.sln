@@ -8,25 +8,19 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|DesktopGL = Debug|DesktopGL
-		Debug|x86 = Debug|x86
 		DebugNoContent|DesktopGL = DebugNoContent|DesktopGL
-		DebugNoContent|x86 = DebugNoContent|x86
 		Release|DesktopGL = Release|DesktopGL
-		Release|x86 = Release|x86
+		ReleaseNoContent|DesktopGL = ReleaseNoContent|DesktopGL
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Debug|DesktopGL.ActiveCfg = Debug|Any CPU
 		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Debug|DesktopGL.Build.0 = Debug|Any CPU
-		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Debug|x86.Build.0 = Debug|Any CPU
 		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.DebugNoContent|DesktopGL.ActiveCfg = DebugNoContent|Any CPU
 		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.DebugNoContent|DesktopGL.Build.0 = DebugNoContent|Any CPU
-		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.DebugNoContent|x86.ActiveCfg = DebugNoContent|Any CPU
-		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.DebugNoContent|x86.Build.0 = DebugNoContent|Any CPU
 		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Release|DesktopGL.ActiveCfg = Release|Any CPU
 		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Release|DesktopGL.Build.0 = Release|Any CPU
-		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Release|x86.ActiveCfg = Release|Any CPU
-		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Release|x86.Build.0 = Release|Any CPU
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.ReleaseNoContent|DesktopGL.ActiveCfg = ReleaseNoContent|Any CPU
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.ReleaseNoContent|DesktopGL.Build.0 = ReleaseNoContent|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
