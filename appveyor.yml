@@ -1,6 +1,7 @@
 version: 0.53.3.{build}
 pull_requests:
   do_not_increment_build_number: true
+skip_tags: true
 configuration: Release
 clone_depth: 1
 assembly_info:
