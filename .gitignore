@@ -251,6 +251,9 @@ ehthumbs.db
 Thumbs.db
 desktop.ini
 
+# Nuget
+/packages
+
 # Must include
 !2.5DHero/
 !2.5DHero/2.5DHero/

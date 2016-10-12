@@ -1,0 +1,69 @@
+version: 0.53.3.{build}
+pull_requests:
+  do_not_increment_build_number: true
+configuration: Release
+assembly_info:
+  patch: true
+  file: '**\AssemblyInfo.*'
+  assembly_version: '{version}'
+  assembly_file_version: '{version}'
+  assembly_informational_version: '{version}'
+install:
+- ps: >-
+    If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
+        [Security.Principal.WindowsBuiltInRole] "Administrator"))
+    {
+        Write-Warning "You do not have Administrator rights to run this script!`nPlease re-run this script as an Administrator!"
+        Break
+    }
+
+
+    $currentLocation = (Get-Location).ToString();
+
+    $downloadLocation = ($currentLocation + "\MonoGameSetup.zip");
+
+
+    Write-Host "`r`n";
+
+    Write-Host "Step 1/2: Downloading MonoGame Installer";
+
+
+    if ((Test-Path ".\MonoGameSetup.zip") -eq $False) {
+      Write-Host "  Downloading MonoGame Installer to $downloadLocation. This may take several minutes.";
+      $wc = New-Object System.Net.WebClient
+      $wc.DownloadFile("http://www.monogame.net/releases/v3.5.1/MonoGameSetup.exe", $downloadLocation)
+      Write-Host "  Download Complete.";
+    } else {
+      Write-Host "  XNA 4.0 Refresh Installer already downloaded. Skipping download step.";
+    }
+
+
+    Write-Host "`r`n";
+
+    Write-Host "Step 2/2: Running Installers"
+
+    Write-Host "  Extracting components from MonoGame Installer.";
+
+
+    7z x -y $downloadLocation -o"$currentLocation"
+
+    Copy-Item "$currentLocation\`$PROGRAMFILES\MSBuild\MonoGame" "$programFiles\MSBuild" -Recurse
+build:
+  parallel: true
+  verbosity: minimal
+before_package:
+- cmd: nuget restore 2.5DHero.sln
+artifacts:
+- path: 2.5DHero/2.5DHero/bin/DesktopGL/Release
+  name: Pokemon
+- path: 2.5DHero/2.5DHero/bin/DesktopGL/Release/Pokemon.exe
+  name: PokemonNoContent
+deploy:
+- provider: GitHub
+  tag: $(appveyor_build_version)
+  release: Pokemon 3D Patch Indev $(appveyor_build_version)
+  auth_token:
+    secure: WqQZ3A0yfpGhgMsEO5+TVJLgJd7WoO9jLjnnHPJww5e0ikdES8hRY1rZCTbY00l/
+  artifact: Pokemon,PokemonNoContent
+  prerelease: true
+  force_update: true
