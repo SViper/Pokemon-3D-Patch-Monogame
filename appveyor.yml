@@ -2,6 +2,7 @@ version: 0.53.3.{build}
 pull_requests:
   do_not_increment_build_number: true
 configuration: Release
+clone_depth: 1
 assembly_info:
   patch: true
   file: '**\AssemblyInfo.*'
@@ -47,12 +48,12 @@ install:
 
     7z x -y $downloadLocation -o"$currentLocation"
 
-    Copy-Item "$currentLocation\`$PROGRAMFILES\MSBuild\MonoGame" "$programFiles\MSBuild" -Recurse
+    Copy-Item "$currentLocation\`$PROGRAMFILES\MSBuild\MonoGame" "${env:ProgramFiles(x86)}\MSBuild" -Recurse
+before_build:
+- cmd: nuget restore 2.5DHero.sln
 build:
   parallel: true
   verbosity: minimal
-before_package:
-- cmd: nuget restore 2.5DHero.sln
 artifacts:
 - path: 2.5DHero/2.5DHero/bin/DesktopGL/Release
   name: Pokemon
