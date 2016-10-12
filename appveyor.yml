@@ -20,6 +20,7 @@ before_build:
 build:
   parallel: true
   verbosity: minimal
+test: off
 artifacts:
 - path: 2.5DHero/2.5DHero/bin/DesktopGL/Release
   name: Pokemon
