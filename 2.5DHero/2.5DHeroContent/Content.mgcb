@@ -12050,6 +12050,18 @@
 /processorParam:TextureFormat=Color
 /build:Content/Pokemon/Overworld/Normal/675.png
 
+#begin Content/Pokemon/Overworld/Normal/679.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Normal/679.PNG
+
 #begin Content/Pokemon/Overworld/Normal/68.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -12062,6 +12074,42 @@
 /processorParam:TextureFormat=Color
 /build:Content/Pokemon/Overworld/Normal/68.png
 
+#begin Content/Pokemon/Overworld/Normal/680.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Normal/680.PNG
+
+#begin Content/Pokemon/Overworld/Normal/681.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Normal/681.PNG
+
+#begin Content/Pokemon/Overworld/Normal/681_blade.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Normal/681_blade.PNG
+
 #begin Content/Pokemon/Overworld/Normal/69.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -12073,6 +12121,42 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Content/Pokemon/Overworld/Normal/69.png
+
+#begin Content/Pokemon/Overworld/Normal/696.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Normal/696.PNG
+
+#begin Content/Pokemon/Overworld/Normal/697.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Normal/697.PNG
+
+#begin Content/Pokemon/Overworld/Normal/698.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Normal/698.PNG
 
 #begin Content/Pokemon/Overworld/Normal/699.png
 /importer:TextureImporter
@@ -12146,6 +12230,18 @@
 /processorParam:TextureFormat=Color
 /build:Content/Pokemon/Overworld/Normal/700.png
 
+#begin Content/Pokemon/Overworld/Normal/703.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Normal/703.PNG
+
 #begin Content/Pokemon/Overworld/Normal/707.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -12170,6 +12266,18 @@
 /processorParam:TextureFormat=Color
 /build:Content/Pokemon/Overworld/Normal/708.png
 
+#begin Content/Pokemon/Overworld/Normal/709.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Normal/709.PNG
+
 #begin Content/Pokemon/Overworld/Normal/71.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -12181,6 +12289,30 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Content/Pokemon/Overworld/Normal/71.png
+
+#begin Content/Pokemon/Overworld/Normal/714.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Normal/714.PNG
+
+#begin Content/Pokemon/Overworld/Normal/715.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Normal/715.PNG
 
 #begin Content/Pokemon/Overworld/Normal/719_mega.png
 /importer:TextureImporter
@@ -20978,6 +21110,18 @@
 /processorParam:TextureFormat=Color
 /build:Content/Pokemon/Overworld/Shiny/675.png
 
+#begin Content/Pokemon/Overworld/Shiny/679.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Shiny/679.PNG
+
 #begin Content/Pokemon/Overworld/Shiny/68.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -20990,6 +21134,42 @@
 /processorParam:TextureFormat=Color
 /build:Content/Pokemon/Overworld/Shiny/68.png
 
+#begin Content/Pokemon/Overworld/Shiny/680.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Shiny/680.PNG
+
+#begin Content/Pokemon/Overworld/Shiny/681.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Shiny/681.PNG
+
+#begin Content/Pokemon/Overworld/Shiny/681_blade.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Shiny/681_blade.PNG
+
 #begin Content/Pokemon/Overworld/Shiny/69.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -21001,6 +21181,42 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Content/Pokemon/Overworld/Shiny/69.png
+
+#begin Content/Pokemon/Overworld/Shiny/696.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Shiny/696.PNG
+
+#begin Content/Pokemon/Overworld/Shiny/697.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Shiny/697.PNG
+
+#begin Content/Pokemon/Overworld/Shiny/698.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Shiny/698.PNG
 
 #begin Content/Pokemon/Overworld/Shiny/699.png
 /importer:TextureImporter
@@ -21050,6 +21266,18 @@
 /processorParam:TextureFormat=Color
 /build:Content/Pokemon/Overworld/Shiny/700.png
 
+#begin Content/Pokemon/Overworld/Shiny/703.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Shiny/703.PNG
+
 #begin Content/Pokemon/Overworld/Shiny/707.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -21097,6 +21325,30 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Content/Pokemon/Overworld/Shiny/71.png
+
+#begin Content/Pokemon/Overworld/Shiny/714.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Shiny/714.PNG
+
+#begin Content/Pokemon/Overworld/Shiny/715.PNG
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Content/Pokemon/Overworld/Shiny/715.PNG
 
 #begin Content/Pokemon/Overworld/Shiny/72.png
 /importer:TextureImporter

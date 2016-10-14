@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <Platform Condition=" '$(Platform)' == '' ">DesktopGL</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}</ProjectGuid>
@@ -22,7 +22,7 @@
     <OptionInfer>On</OptionInfer>
     <StartupObject>net.Pokemon3D.Game.Program</StartupObject>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|DesktopGL'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\DesktopGL\Debug\</OutputPath>
     <DefineConstants>DEBUG,TRACE,WINDOWS</DefineConstants>
@@ -31,7 +31,7 @@
     <Prefer32Bit>false</Prefer32Bit>
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|DesktopGL'">
     <OutputPath>bin\DesktopGL\Release\</OutputPath>
     <DefineConstants>TRACE,WINDOWS</DefineConstants>
     <Optimize>true</Optimize>
@@ -40,7 +40,7 @@
     <Prefer32Bit>false</Prefer32Bit>
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DebugNoContent|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DebugNoContent|DesktopGL'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\DesktopGL\Debug\</OutputPath>
     <DefineConstants>DEBUG,TRACE,WINDOWS</DefineConstants>
@@ -48,7 +48,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ReleaseNoContent|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ReleaseNoContent|DesktopGL'">
     <OutputPath>bin\DesktopGL\Release\</OutputPath>
     <DefineConstants>TRACE,WINDOWS</DefineConstants>
     <Optimize>true</Optimize>

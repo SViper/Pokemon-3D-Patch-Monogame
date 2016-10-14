@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "2.5DHero", "2.5DHero\2.5DHero\2.5DHero.vbproj", "{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB} = {3C076B4E-7543-42A8-BC27-5C0F064CD0FB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monogame Content Builder", "Monogame Content Builder\Monogame Content Builder.csproj", "{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +18,22 @@ Global
 		ReleaseNoContent|DesktopGL = ReleaseNoContent|DesktopGL
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Debug|DesktopGL.ActiveCfg = Debug|Any CPU
-		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Debug|DesktopGL.Build.0 = Debug|Any CPU
-		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.DebugNoContent|DesktopGL.ActiveCfg = DebugNoContent|Any CPU
-		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.DebugNoContent|DesktopGL.Build.0 = DebugNoContent|Any CPU
-		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Release|DesktopGL.ActiveCfg = Release|Any CPU
-		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Release|DesktopGL.Build.0 = Release|Any CPU
-		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.ReleaseNoContent|DesktopGL.ActiveCfg = ReleaseNoContent|Any CPU
-		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.ReleaseNoContent|DesktopGL.Build.0 = ReleaseNoContent|Any CPU
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Debug|DesktopGL.ActiveCfg = Debug|DesktopGL
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Debug|DesktopGL.Build.0 = Debug|DesktopGL
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.DebugNoContent|DesktopGL.ActiveCfg = DebugNoContent|DesktopGL
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.DebugNoContent|DesktopGL.Build.0 = DebugNoContent|DesktopGL
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Release|DesktopGL.ActiveCfg = Release|DesktopGL
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Release|DesktopGL.Build.0 = Release|DesktopGL
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.ReleaseNoContent|DesktopGL.ActiveCfg = ReleaseNoContent|DesktopGL
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.ReleaseNoContent|DesktopGL.Build.0 = ReleaseNoContent|DesktopGL
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.Debug|DesktopGL.ActiveCfg = Debug|Any CPU
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.Debug|DesktopGL.Build.0 = Debug|Any CPU
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.DebugNoContent|DesktopGL.ActiveCfg = Debug|Any CPU
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.DebugNoContent|DesktopGL.Build.0 = Debug|Any CPU
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.Release|DesktopGL.ActiveCfg = Release|Any CPU
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.Release|DesktopGL.Build.0 = Release|Any CPU
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.ReleaseNoContent|DesktopGL.ActiveCfg = Release|Any CPU
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.ReleaseNoContent|DesktopGL.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
