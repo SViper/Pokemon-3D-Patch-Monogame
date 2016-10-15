@@ -23,7 +23,8 @@
     <OptionInfer>On</OptionInfer>
     <StartupObject>net.Pokemon3D.Game.Program</StartupObject>
     <DebugSymbols Condition="'$(Configuration)' == 'Debug' Or '$(Configuration)' == 'DebugNoContent'">true</DebugSymbols>
-    <OutputPath>bin\$(Platform)\Debug\</OutputPath>
+    <OutputPath Condition="'$(Configuration)' == 'Debug' Or '$(Configuration)' == 'DebugNoContent'">bin\$(Platform)\Debug\</OutputPath>
+    <OutputPath Condition="'$(Configuration)' == 'Release' Or '$(Configuration)' == 'ReleaseNoContent'">bin\$(Platform)\Release\</OutputPath>
     <DefineConstants Condition="'$(Configuration)' == 'Debug' And '$(Platform)' == 'Windows'">DEBUG,TRACE,WINDOWS</DefineConstants>
     <DefineConstants Condition="'$(Configuration)' == 'DebugNoContent' And '$(Platform)' == 'Windows'">DEBUG,TRACE,WINDOWS</DefineConstants>
     <DefineConstants Condition="'$(Configuration)' == 'Release' And '$(Platform)' == 'Windows'">TRACE,WINDOWS</DefineConstants>
