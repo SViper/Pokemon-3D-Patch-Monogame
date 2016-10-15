@@ -19,6 +19,7 @@ namespace Monogame_Content_Builder
             long MeasuredSize = 0;
             string Temp = null;
 
+            Console.WriteLine("Preparing " + args[0] + " build config...");
             Console.WriteLine("Generating BackdropShader.fx");
 
             using (StreamReader Reader = new StreamReader(AppDirectory + "Content/Effects/BackdropShader.fx"))
@@ -26,6 +27,8 @@ namespace Monogame_Content_Builder
 
             Temp = Temp.Replace("vs_2_0", args[0] == "DesktopGL" ? "vs_2_0" : "vs_4_0");
             Temp = Temp.Replace("ps_2_0", args[0] == "DesktopGL" ? "ps_2_0" : "ps_4_0");
+            Temp = Temp.Replace("vs_4_0", args[0] == "DesktopGL" ? "vs_2_0" : "vs_4_0");
+            Temp = Temp.Replace("ps_4_0", args[0] == "DesktopGL" ? "ps_2_0" : "ps_4_0");
 
             using (StreamWriter Writer = new StreamWriter(AppDirectory + "Content/Effects/BackdropShader.fx", false, Encoding.UTF8))
             {
@@ -40,6 +43,8 @@ namespace Monogame_Content_Builder
 
             Temp = Temp.Replace("vs_2_0", args[0] == "DesktopGL" ? "vs_2_0" : "vs_4_0");
             Temp = Temp.Replace("ps_2_0", args[0] == "DesktopGL" ? "ps_2_0" : "ps_4_0");
+            Temp = Temp.Replace("vs_4_0", args[0] == "DesktopGL" ? "vs_2_0" : "vs_4_0");
+            Temp = Temp.Replace("ps_4_0", args[0] == "DesktopGL" ? "ps_2_0" : "ps_4_0");
 
             using (StreamWriter Writer = new StreamWriter(AppDirectory + "Content/Effects/BlurEffect.fx", false, Encoding.UTF8))
             {
@@ -53,7 +58,9 @@ namespace Monogame_Content_Builder
                 Temp = Reader.ReadToEnd();
 
             Temp = Temp.Replace("vs_2_0", args[0] == "DesktopGL" ? "vs_2_0" : "vs_4_0");
+            Temp = Temp.Replace("vs_4_0", args[0] == "DesktopGL" ? "vs_2_0" : "vs_4_0");
             Temp = Temp.Replace("ps_2_0", args[0] == "DesktopGL" ? "ps_2_0" : "ps_4_0");
+            Temp = Temp.Replace("ps_4_0", args[0] == "DesktopGL" ? "ps_2_0" : "ps_4_0");
 
             using (StreamWriter Writer = new StreamWriter(AppDirectory + "Content/Effects/DiffuseShader.fx", false, Encoding.UTF8))
             {
@@ -67,8 +74,9 @@ namespace Monogame_Content_Builder
                 Temp = Reader.ReadToEnd();
 
             Temp = Temp.Replace("vs_1_1", args[0] == "DesktopGL" ? "vs_1_1" : "vs_4_0");
-            Temp = Temp.Replace("vs_2_0", args[0] == "DesktopGL" ? "vs_2_0" : "vs_4_0");
+            Temp = Temp.Replace("vs_4_0", args[0] == "DesktopGL" ? "vs_1_1" : "vs_4_0");
             Temp = Temp.Replace("ps_2_0", args[0] == "DesktopGL" ? "ps_2_0" : "ps_4_0");
+            Temp = Temp.Replace("ps_4_0", args[0] == "DesktopGL" ? "ps_2_0" : "ps_4_0");
 
             using (StreamWriter Writer = new StreamWriter(AppDirectory + "Content/Effects/Toon.fx", false, Encoding.UTF8))
             {
