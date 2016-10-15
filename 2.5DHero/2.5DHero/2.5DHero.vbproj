@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">DesktopGL</Platform>
+    <Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
+    <Platform Condition="'$(Platform)' == ''">Windows</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}</ProjectGuid>
@@ -11,7 +11,8 @@
     <RootNamespace>net.Pokemon3D.Game</RootNamespace>
     <AssemblyName>Pokemon</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <MonoGamePlatform>DesktopGL</MonoGamePlatform>
+    <MonoGamePlatform Condition="'$(Platform)' == 'Windows'">Windows</MonoGamePlatform>
+    <MonoGamePlatform Condition="'$(Platform)' == 'DesktopGL'">DesktopGL</MonoGamePlatform>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile />
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -21,43 +22,22 @@
     <OptionStrict>Off</OptionStrict>
     <OptionInfer>On</OptionInfer>
     <StartupObject>net.Pokemon3D.Game.Program</StartupObject>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|DesktopGL'">
-    <DebugSymbols>true</DebugSymbols>
-    <OutputPath>bin\DesktopGL\Debug\</OutputPath>
-    <DefineConstants>DEBUG,TRACE,WINDOWS</DefineConstants>
-    <DebugType>full</DebugType>
+    <DebugSymbols Condition="'$(Configuration)' == 'Debug' Or '$(Configuration)' == 'DebugNoContent'">true</DebugSymbols>
+    <OutputPath>bin\$(Platform)\Debug\</OutputPath>
+    <DefineConstants Condition="'$(Configuration)' == 'Debug' And '$(Platform)' == 'Windows'">DEBUG,TRACE,WINDOWS</DefineConstants>
+    <DefineConstants Condition="'$(Configuration)' == 'DebugNoContent' And '$(Platform)' == 'Windows'">DEBUG,TRACE,WINDOWS</DefineConstants>
+    <DefineConstants Condition="'$(Configuration)' == 'Release' And '$(Platform)' == 'Windows'">TRACE,WINDOWS</DefineConstants>
+    <DefineConstants Condition="'$(Configuration)' == 'ReleaseNoContent' And '$(Platform)' == 'Windows'">TRACE,WINDOWS</DefineConstants>
+    <DefineConstants Condition="'$(Configuration)' == 'Debug' And '$(Platform)' == 'DesktopGL'">DEBUG,TRACE</DefineConstants>
+    <DefineConstants Condition="'$(Configuration)' == 'DebugNoContent' And '$(Platform)' == 'DesktopGL'">DEBUG,TRACE</DefineConstants>
+    <DefineConstants Condition="'$(Configuration)' == 'Release' And '$(Platform)' == 'DesktopGL'">TRACE</DefineConstants>
+    <DefineConstants Condition="'$(Configuration)' == 'ReleaseNoContent' And '$(Platform)' == 'DesktopGL'">TRACE</DefineConstants>
+    <Optimize Condition="'$(Configuration)' == 'Release' Or '$(Configuration)' == 'ReleaseNoContent'">true</Optimize>
+    <DebugType Condition="'$(Configuration)' == 'Debug' Or '$(Configuration)' == 'DebugNoContent'">full</DebugType>
+    <DebugType Condition="'$(Configuration)' == 'Release' Or '$(Configuration)' == 'ReleaseNoContent'">none</DebugType>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <Prefer32Bit>false</Prefer32Bit>
     <UseVSHostingProcess>false</UseVSHostingProcess>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|DesktopGL'">
-    <OutputPath>bin\DesktopGL\Release\</OutputPath>
-    <DefineConstants>TRACE,WINDOWS</DefineConstants>
-    <Optimize>true</Optimize>
-    <DebugType>None</DebugType>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <Prefer32Bit>false</Prefer32Bit>
-    <UseVSHostingProcess>false</UseVSHostingProcess>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DebugNoContent|DesktopGL'">
-    <DebugSymbols>true</DebugSymbols>
-    <OutputPath>bin\DesktopGL\Debug\</OutputPath>
-    <DefineConstants>DEBUG,TRACE,WINDOWS</DefineConstants>
-    <DebugType>full</DebugType>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <UseVSHostingProcess>false</UseVSHostingProcess>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ReleaseNoContent|DesktopGL'">
-    <OutputPath>bin\DesktopGL\Release\</OutputPath>
-    <DefineConstants>TRACE,WINDOWS</DefineConstants>
-    <Optimize>true</Optimize>
-    <DebugType>None</DebugType>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <Prefer32Bit>false</Prefer32Bit>
-    <UseVSHostingProcess>false</UseVSHostingProcess>
-  </PropertyGroup>
-  <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
@@ -1689,7 +1669,13 @@
     <Compile Include="World\Terrain.vb" />
     <Compile Include="World\World.vb" />
   </ItemGroup>
-  <ItemGroup>
+  <ItemGroup Condition="'$(Platform)' == 'Windows'">
+    <Reference Include="MonoGame.Framework, Version=3.5.1.1679, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MonoGame.Framework.WindowsDX.3.5.1.1679\lib\net40\MonoGame.Framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Platform)' == 'DesktopGL'">
     <Reference Include="MonoGame.Framework, Version=3.5.1.1679, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\MonoGame.Framework.DesktopGL.3.5.1.1679\lib\net40\MonoGame.Framework.dll</HintPath>
       <Private>True</Private>
@@ -1702,6 +1688,8 @@
       <HintPath>..\..\packages\MonoGame.Framework.DesktopGL.3.5.1.1679\lib\net40\OpenTK.dll</HintPath>
       <Private>True</Private>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Management" />
@@ -1734,65 +1722,11 @@
     <None Include="My Project\app.manifest" />
     <None Include="packages.config" />
   </ItemGroup>
-  <!-- Specify the search path explicitly so the ResolveAssemblyReferences task picks the right ones -->
   <Target Name="BeforeResolveReferences">
     <CreateProperty Value="$(MSBuildProgramFiles32)\MonoGame\v3.0\Assemblies\Windows,$(AssemblySearchPaths)">
       <Output TaskParameter="Value" PropertyName="AssemblySearchPaths" />
     </CreateProperty>
   </Target>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
-  <!-- This disables the IDE feature that skips executing msbuild in some build situations. -->
-  <PropertyGroup Condition="'$(Configuration)' != 'DebugNoContent' And '$(Configuration)' != 'ReleaseNoContent'">
-    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
-  </PropertyGroup>
-  <Target Name="Prepare" Condition="'$(Configuration)' != 'DebugNoContent' And '$(Configuration)' != 'ReleaseNoContent'">
-    <PropertyGroup>
-      <ParentOutputDir>$(ProjectDir)..\2.5DHeroContent\bin\$(MonoGamePlatform)</ParentOutputDir>
-      <ParentIntermediateDir>$(ProjectDir)..\2.5DHeroContent\obj\$(MonoGamePlatform)</ParentIntermediateDir>
-      <!-- El Capitan Support -->
-      <MonoExe Condition=" '$(OS)' != 'Windows_NT' And Exists ('/Library/Frameworks/Mono.framework/Versions/Current/bin/mono') ">/Library/Frameworks/Mono.framework/Versions/Current/bin/mono</MonoExe>
-      <MonoExe Condition=" '$(OS)' != 'Windows_NT' And Exists ('/usr/local/bin/mono') ">/usr/local/bin/mono</MonoExe>
-      <MonoExe Condition=" '$(OS)' != 'Windows_NT' And Exists ('/usr/bin/mono') ">/usr/bin/mono</MonoExe>
-      <MonoExe Condition=" '$(OS)' != 'Windows_NT' And '$(MonoExe)' == '' ">mono</MonoExe>
-      <MonoGameContentBuilderExe Condition="'$(MonoGameContentBuilderExe)' == ''">$(MSBuildProgramFiles32)\MSBuild\MonoGame\v3.0\Tools\MGCB.exe</MonoGameContentBuilderExe>
-      <MonoGameContentBuilderCmd>"$(MonoGameContentBuilderExe)"</MonoGameContentBuilderCmd>
-      <MonoGameContentBuilderCmd Condition=" '$(OS)' != 'Windows_NT' ">$(MonoExe) $(MonoGameContentBuilderCmd)</MonoGameContentBuilderCmd>
-      <PlatformResourcePrefix Condition="'$(MonoGamePlatform)' == 'MacOSX' Or '$(MonoGamePlatform)' == 'iOS'">Resources\</PlatformResourcePrefix>
-      <PlatformResourcePrefix Condition="'$(MonoGamePlatform)' == 'Android'">Assets\</PlatformResourcePrefix>
-      <PlatformResourcePrefix Condition="'$(PlatformResourcePrefix)' == ''">
-      </PlatformResourcePrefix>
-      <Header>/platform:$(MonoGamePlatform) /outputDir:"$(ParentOutputDir)" /intermediateDir:"$(ParentIntermediateDir)" /quiet</Header>
-    </PropertyGroup>
-    <!-- Get all Mono Game Content References and store them in a list -->
-    <!-- We do this here so we are compatible with xbuild -->
-    <ItemGroup>
-      <ContentReferences Include="@(MonoGameContentReference)" />
-    </ItemGroup>
-    <Error Text="The MonoGamePlatform property was not defined in the project!  It must be set to Windows, WindowsGL, WindowsStoreApp, WindowsPhone8, MacOSX, iOS, Linux, DesktopGL, RaspberryPi, Android, Ouya, NativeClient, PlayStation4, or PlayStationMobile." Condition="'$(MonoGamePlatform)' != 'Windows' And&#xD;&#xA;            '$(MonoGamePlatform)' != 'iOS' And       &#xD;&#xA;            '$(MonoGamePlatform)' != 'Android' And       &#xD;&#xA;            '$(MonoGamePlatform)' != 'Linux' And           &#xD;&#xA;            '$(MonoGamePlatform)' != 'DesktopGL' And           &#xD;&#xA;            '$(MonoGamePlatform)' != 'MacOSX' And       &#xD;&#xA;            '$(MonoGamePlatform)' != 'WindowsStoreApp' And       &#xD;&#xA;            '$(MonoGamePlatform)' != 'NativeClient' And       &#xD;&#xA;            '$(MonoGamePlatform)' != 'Ouya' And       &#xD;&#xA;            '$(MonoGamePlatform)' != 'PlayStationMobile' And       &#xD;&#xA;            '$(MonoGamePlatform)' != 'WindowsPhone8' And       &#xD;&#xA;            '$(MonoGamePlatform)' != 'RaspberryPi' And       &#xD;&#xA;            '$(MonoGamePlatform)' != 'PlayStation4' And       &#xD;&#xA;            '$(MonoGamePlatform)' != 'WindowsGL'" />
-    <Error Text="The MonoGame content builder executable could not be located at '$(MonoGameContentBuilderExe)'!" Condition="!Exists('$(MonoGameContentBuilderExe)')" />
-    <Warning Text="No Content References Found. Please make sure your .mgcb file has a build action of MonoGameContentReference" Condition=" '%(ContentReferences.FullPath)' == '' " />
-    <MakeDir Directories="$(ParentIntermediateDir)" />
-    <MakeDir Directories="$(ParentOutputDir)" />
-  </Target>
-  <PropertyGroup Condition="'$(Configuration)' != 'DebugNoContent' And '$(Configuration)' != 'ReleaseNoContent'">
-    <BuildDependsOn>
-      BuildContent;
-      $(BuildDependsOn);
-    </BuildDependsOn>
-  </PropertyGroup>
-  <Target Name="RunContentBuilder" Condition="'$(Configuration)' != 'DebugNoContent' And '$(Configuration)' != 'ReleaseNoContent'">
-    <Exec Condition=" '$(OS)' == 'Windows_NT' " Command="&quot;$(ProjectDir)..\2.5DHeroContent\MGCB.exe&quot;" />
-    <Exec Condition=" '$(OS)' != 'Windows_NT' " Command="$(MonoExe) &quot;$(ProjectDir)..\2.5DHeroContent\MGCB.exe&quot;" />
-    <Exec Condition=" '%(ContentReferences.FullPath)' != '' " Command="$(MonoGameContentBuilderCmd) /@:&quot;%(ContentReferences.FullPath)&quot; $(Header)" WorkingDirectory="%(ContentReferences.RootDir)%(ContentReferences.Directory)" />
-    <CreateItem Include="$(ParentOutputDir)\**\*.*">
-      <Output TaskParameter="Include" ItemName="ExtraContent" />
-    </CreateItem>
-  </Target>
-  <Target Name="BuildContent" DependsOnTargets="Prepare;RunContentBuilder" Outputs="%(ExtraContent.RecursiveDir)%(ExtraContent.Filename)%(ExtraContent.Extension)" Condition="'$(Configuration)' != 'DebugNoContent' And '$(Configuration)' != 'ReleaseNoContent'">
-    <CreateItem Include="$(ParentOutputDir)\%(ExtraContent.RecursiveDir)%(ExtraContent.Filename)%(ExtraContent.Extension)" AdditionalMetadata="Link=$(PlatformResourcePrefix)\%(ExtraContent.RecursiveDir)%(ExtraContent.Filename)%(ExtraContent.Extension);CopyToOutputDirectory=PreserveNewest" Condition="'%(ExtraContent.Filename)' != ''">
-      <Output TaskParameter="Include" ItemName="Content" Condition="'$(MonoGamePlatform)' != 'Android' And '$(MonoGamePlatform)' != 'iOS' And '$(MonoGamePlatform)' != 'MacOSX'" />
-      <Output TaskParameter="Include" ItemName="BundleResource" Condition="'$(MonoGamePlatform)' == 'MacOSX' Or '$(MonoGamePlatform)' == 'iOS'" />
-      <Output TaskParameter="Include" ItemName="AndroidAsset" Condition="'$(MonoGamePlatform)' == 'Android'" />
-    </CreateItem>
-  </Target>
+  <Import Condition="'$(Configuration)' != 'DebugNoContent' And '$(Configuration)' != 'ReleaseNoContent'" Project="MonoGame.Content.Builder.targets" />
 </Project>

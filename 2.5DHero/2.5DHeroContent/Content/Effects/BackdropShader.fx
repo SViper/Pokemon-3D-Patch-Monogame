@@ -1,4 +1,4 @@
-float4x4 World;
+﻿float4x4 World;
 float4x4 View;
 float4x4 Projection;
 
@@ -55,7 +55,7 @@ technique Texture
 	{
 		// TODO: set renderstates here.
 
-		VertexShader = compile vs_2_0 VertexShaderFunction();
-		PixelShader = compile ps_2_0 TextureShaderFunction();
+		VertexShader = compile vs_4_0 VertexShaderFunction();
+		PixelShader = compile ps_4_0 TextureShaderFunction();
 	}
 }

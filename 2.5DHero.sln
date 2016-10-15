@@ -13,27 +13,47 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|DesktopGL = Debug|DesktopGL
+		Debug|Windows = Debug|Windows
 		DebugNoContent|DesktopGL = DebugNoContent|DesktopGL
+		DebugNoContent|Windows = DebugNoContent|Windows
 		Release|DesktopGL = Release|DesktopGL
+		Release|Windows = Release|Windows
 		ReleaseNoContent|DesktopGL = ReleaseNoContent|DesktopGL
+		ReleaseNoContent|Windows = ReleaseNoContent|Windows
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Debug|DesktopGL.ActiveCfg = Debug|DesktopGL
 		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Debug|DesktopGL.Build.0 = Debug|DesktopGL
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Debug|Windows.ActiveCfg = Debug|Windows
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Debug|Windows.Build.0 = Debug|Windows
 		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.DebugNoContent|DesktopGL.ActiveCfg = DebugNoContent|DesktopGL
 		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.DebugNoContent|DesktopGL.Build.0 = DebugNoContent|DesktopGL
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.DebugNoContent|Windows.ActiveCfg = DebugNoContent|Windows
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.DebugNoContent|Windows.Build.0 = DebugNoContent|Windows
 		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Release|DesktopGL.ActiveCfg = Release|DesktopGL
 		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Release|DesktopGL.Build.0 = Release|DesktopGL
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Release|Windows.ActiveCfg = Release|Windows
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.Release|Windows.Build.0 = Release|Windows
 		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.ReleaseNoContent|DesktopGL.ActiveCfg = ReleaseNoContent|DesktopGL
 		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.ReleaseNoContent|DesktopGL.Build.0 = ReleaseNoContent|DesktopGL
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.ReleaseNoContent|Windows.ActiveCfg = ReleaseNoContent|Windows
+		{2AAF65BE-C81D-4663-ABF4-E2E09B16E12F}.ReleaseNoContent|Windows.Build.0 = ReleaseNoContent|Windows
 		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.Debug|DesktopGL.ActiveCfg = Debug|Any CPU
 		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.Debug|DesktopGL.Build.0 = Debug|Any CPU
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.Debug|Windows.ActiveCfg = Debug|Any CPU
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.Debug|Windows.Build.0 = Debug|Any CPU
 		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.DebugNoContent|DesktopGL.ActiveCfg = Debug|Any CPU
 		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.DebugNoContent|DesktopGL.Build.0 = Debug|Any CPU
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.DebugNoContent|Windows.ActiveCfg = Debug|Any CPU
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.DebugNoContent|Windows.Build.0 = Debug|Any CPU
 		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.Release|DesktopGL.ActiveCfg = Release|Any CPU
 		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.Release|DesktopGL.Build.0 = Release|Any CPU
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.Release|Windows.ActiveCfg = Release|Any CPU
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.Release|Windows.Build.0 = Release|Any CPU
 		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.ReleaseNoContent|DesktopGL.ActiveCfg = Release|Any CPU
 		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.ReleaseNoContent|DesktopGL.Build.0 = Release|Any CPU
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.ReleaseNoContent|Windows.ActiveCfg = Release|Any CPU
+		{3C076B4E-7543-42A8-BC27-5C0F064CD0FB}.ReleaseNoContent|Windows.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

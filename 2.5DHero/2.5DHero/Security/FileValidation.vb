@@ -7,7 +7,7 @@
 
         Const RUNVALIDATION As Boolean = False
         Const EXPECTEDSIZE As Integer = 40231474
-        Const METAHASH As String = "NDQ5NzJGMjhERUIzMzBDNTA2QjMxNzgxMTQ2NDczMEY="
+        Const METAHASH As String = "ODA0NTcxNkU4ODJFMEQzNjY2MTNGOTMzQ0M3MTRFNzY="
 
         Public Shared ReadOnly Property IsValid(ByVal ForceResult As Boolean) As Boolean
             Get
@@ -111,7 +111,7 @@
         End Sub
 
         Private Shared Function ValidateFile(ByVal file As String, ByVal relativePath As Boolean) As String
-            If Core.Player.IsGamejoltSave = True And GameController.IS_DEBUG_ACTIVE = False Then
+            If Core.Player.IsGameJoltSave = True And GameController.IS_DEBUG_ACTIVE = False Then
                 Dim filePath As String = file.Replace("/", "\")
                 If relativePath = True Then
                     filePath = GameController.GamePath & "\" & file
