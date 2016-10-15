@@ -9,15 +9,15 @@ The game is not in active development by nilllzz anymore, but you are free to fo
 Build instructions (game)
 =========================
 
-The game is written in Visual Basic and was compiled targeting the .Net Framework 4.0 for public builds.
+The game is written in Visual Basic and was compiled targeting the .Net Framework 4.5 for public builds.
 
-It is built using the Monogame as graphics middleware.
+It is built using the MonoGame as graphics middleware.
 
 In order to build the game's solution, you need the following:
 * Microsoft Windows operating system (XP and up) or Mac osx.
 * [Microsoft Visual Studio](https://www.visualstudio.com/) (2010 and up)
 * [Microsoft XNA Game Studio 4.0](https://www.microsoft.com/en-us/download/details.aspx?id=23714) ([install instructions](http://stackoverflow.com/questions/12849107/how-to-install-the-xna-game-studio-4-0-in-windows-8))
-* [Monogame 3.5](http://www.monogame.net/downloads/)
+* [MonoGame 3.5](http://www.monogame.net/downloads/)
 
 To run the game after a successful build, you also need an applicable graphics card that supports DirectX (version 9 minimum).
 
