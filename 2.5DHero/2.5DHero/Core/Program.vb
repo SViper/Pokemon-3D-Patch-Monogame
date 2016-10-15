@@ -1,5 +1,3 @@
-#If WINDOWS Or XBOX Then
-
 Module Program
 
     Private _gameCrashed As Boolean = False
@@ -40,5 +38,3 @@ Module Program
     End Property
 
 End Module
-
-#End If
