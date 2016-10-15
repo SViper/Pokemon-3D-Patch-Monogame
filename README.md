@@ -27,7 +27,7 @@ Running the game
 ================
 
 In order to run the game, you will need the following:
-* OpenAL - You have to install that manually from the Monogame folder. The installer doesn't install for you.
+* [OpenAL](https://www.openal.org/downloads/oalinst.zip)
 
 Classified information
 ----------------------
