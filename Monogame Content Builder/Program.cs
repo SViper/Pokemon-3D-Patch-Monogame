@@ -164,7 +164,7 @@ namespace Monogame_Content_Builder
                         Writer.WriteLine("/processorParam:RotationZ=0");
                         Writer.WriteLine("/processorParam:Scale=1");
                         Writer.WriteLine("/processorParam:SwapWindingOrder=False");
-                        Writer.WriteLine("/processorParam:TextureFormat=Compressed");
+                        Writer.WriteLine("/processorParam:TextureFormat=Color");
                         Writer.WriteLine("/build:" + TempFile);
                         Writer.WriteLine();
                     }
