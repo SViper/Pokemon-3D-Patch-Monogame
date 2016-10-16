@@ -39,7 +39,6 @@ deploy:
 - provider: GitHub
   tag: $(appveyor_build_version)
   release: Pokemon 3D Patch Indev $(appveyor_build_version)
-  description: Windows + DesktopGL Builds
   auth_token:
     secure: WqQZ3A0yfpGhgMsEO5+TVJLgJd7WoO9jLjnnHPJww5e0ikdES8hRY1rZCTbY00l/
   artifact: WindowsPokemon,WindowsPokemonNoContent,DesktopGLPokemon,DesktopGLPokemonNoContent
