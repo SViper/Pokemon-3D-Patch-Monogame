@@ -93,7 +93,7 @@ MapScreen:
 map_screen_cities,Miestai
 map_screen_routes,Maršrutai
 map_screen_places,Vietovės
-map_screen_roaming,Klajojantys Pokemonai
+map_screen_roaming,Klajokliai
 ---
 PokedexScreen:
 pokedex_screen_seen,Matyti
@@ -680,19 +680,19 @@ game_message_music_off,Muzika išjungta
 game_message_continue_autosave,Continued save state:
 ---
 Online:
-game_message_close_connection,You closed the co-op game.
-game_message_disconncet,You disconnected from the host.
-game_message_cannot_connect_client_1,Cannot connect to host (
+game_message_close_connection,Jūs uždarėte kooperatyvinį žaidimą.
+game_message_disconncet,Jūs praradote ryšį su serveriu.
+game_message_cannot_connect_client_1,Negalite susijunkti su serveriu (
 game_message_cannot_connect_client_2,)!
-game_message_client_connect_1,You joined the game (
+game_message_client_connect_1,Jūs prisijungite prie žaidimo (
 game_message_client_connect_2,)!
-game_message_client_host_closed_1,The host (
-game_message_client_host_closed_2,) closed the connection.
-game_message_client_outdated_newer_version,You have an outdated or newer version of the game.
-game_message_host_session_started,You (host) started a Co-Op session.
-game_message_host_outdated_newer_version,The client has an outdated or newer version of the game!
-game_message_host_client_accept,A client joined the game!
-game_message_host_client_disconnect,The client disconnected! The Co-Op session has been closed.
+game_message_client_host_closed_1,Serveris (
+game_message_client_host_closed_2,) uždarė jungtį.
+game_message_client_outdated_newer_version,Jūs turite pasenusę arba naujesnę žaidimo versiją.
+game_message_host_session_started,Jūs (host) pradėjote kooperatyvinę sesiją.
+game_message_host_outdated_newer_version,Klijanto žaidimo versiją netitinka serverio.
+game_message_host_client_accept,Klijantas prisijungė prie žaidimo!
+game_message_host_client_disconnect,Klijantas prarado ryšį! Kooperatyvi sesija buvo uždaryta.
 ---
 General:
 HP,Gyvybės
