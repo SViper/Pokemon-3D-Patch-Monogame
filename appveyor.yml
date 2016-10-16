@@ -33,18 +33,14 @@ test: off
 artifacts:
 - path: 2.5DHero/2.5DHero/bin/Windows/Release
   name: WindowsPokemon
-- path: 2.5DHero/2.5DHero/bin/Windows/Release/Pokemon.exe
-  name: WindowsPokemonNoContent
 - path: 2.5DHero/2.5DHero/bin/DesktopGL/Release
   name: DesktopGLPokemon
-- path: 2.5DHero/2.5DHero/bin/DesktopGL/Release/Pokemon.exe
-  name: DesktopGLPokemonNoContent
 deploy:
 - provider: GitHub
   tag: $(appveyor_build_version)
   release: Pokemon 3D Patch Indev $(appveyor_build_version)
   auth_token:
     secure: WqQZ3A0yfpGhgMsEO5+TVJLgJd7WoO9jLjnnHPJww5e0ikdES8hRY1rZCTbY00l/
-  artifact: WindowsPokemon,WindowsPokemonNoContent,DesktopGLPokemon,DesktopGLPokemonNoContent
+  artifact: WindowsPokemon,DesktopGLPokemon
   prerelease: true
   force_update: true
