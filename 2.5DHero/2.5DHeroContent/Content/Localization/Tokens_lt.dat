@@ -93,6 +93,7 @@ MapScreen:
 map_screen_cities,Miestai
 map_screen_routes,Maršrutai
 map_screen_places,Vietovės
+map_screen_roaming,Klajojantys Pokemonai
 ---
 PokedexScreen:
 pokedex_screen_seen,Matyti
